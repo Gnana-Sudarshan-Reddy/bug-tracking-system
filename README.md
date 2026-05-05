@@ -10,6 +10,10 @@
   <p>
     <strong>A sleek, high-performance, full-stack issue tracking system built for modern teams.</strong>
   </p>
+
+  <p>
+    🔗 <strong><a href="#">Live Demo (Pending Deployment)</a></strong>
+  </p>
 </div>
 
 <hr />
