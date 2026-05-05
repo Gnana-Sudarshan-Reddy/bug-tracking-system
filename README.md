@@ -15,6 +15,7 @@
 <hr />
 
 ## 📖 Table of Contents
+- [🎯 About This System](#-about-this-system)
 - [✨ Features](#-features)
 - [🏗️ Architecture & Tech Stack](#-architecture--tech-stack)
 - [🚀 Quick Start Guide](#-quick-start-guide)
@@ -22,7 +23,18 @@
   - [2. Backend Setup](#2-backend-setup)
   - [3. Frontend Setup](#3-frontend-setup)
 - [🔐 Default Credentials](#-default-credentials)
-- [📁 Project Structure](#-project-structure)
+
+---
+
+## 🎯 About This System
+
+**Mini Jira** is a streamlined Bug Tracking System designed to help software development teams efficiently capture, manage, and resolve software defects. Born out of the need for a lightweight alternative to complex enterprise tools, this system provides exactly what developers and QA testers need without the clutter.
+
+**With this system, your team can:**
+- 📝 **Report Issues:** Testers can quickly file detailed bug reports with descriptions to reproduce the issues.
+- 🚦 **Track Lifecycles:** Visualize where every bug stands in the development pipeline (from `OPEN` to `IN_PROGRESS` and finally `CLOSED`).
+- 👥 **Manage Workloads:** Administrators have a bird's-eye view of all issues and can dynamically re-assign bugs to specific team members to balance the workload.
+- ⚡ **Collaborate Seamlessly:** A shared, real-time dashboard ensures everyone from project managers to developers are on the exact same page regarding software quality.
 
 ---
 
@@ -102,22 +114,6 @@ To make testing easier, the backend automatically seeds two default accounts int
 | :--- | :--- | :--- | :--- |
 | 🛡️ **Admin** | `admin` | `admin123` | Full system access. Assign bugs, update status. |
 | 🧪 **Tester** | `tester` | `tester123` | Create bugs, view dashboard, update assigned bugs. |
-
----
-
-## 📁 Project Structure
-
-```bash
-Bug Tracking System/
-├── backend/               # ☕ Spring Boot REST API
-│   ├── src/main/java/     # Models, Controllers, Services, Repositories
-│   └── src/main/resources/# Configuration properties
-├── frontend/              # ⚛️ React UI Client
-│   ├── src/pages/         # React Views (Dashboard, Login, CreateBug, BugDetails)
-│   ├── src/index.css      # Core Vanilla CSS (Dark mode + Glassmorphism)
-│   └── package.json       # Frontend dependencies
-└── README.md              # 📖 You are here
-```
 
 <hr />
 <p align="center">Made with ❤️ for modern software teams.</p>
